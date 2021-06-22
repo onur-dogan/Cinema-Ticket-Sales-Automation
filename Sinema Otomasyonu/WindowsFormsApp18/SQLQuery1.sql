@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [kullanici_id]
+      ,[kullanici_ismi]
+      ,[kullanici_sifre]
+      ,[kullanici_adi]
+      ,[kullanici_soyadi]
+      ,[kullanici_yasi]
+      ,[kullanici_mail]
+      ,[guvenlik_sorusu]
+      ,[guvenlik_cevabi]
+  FROM [sinema].[dbo].[kullanicilar]
